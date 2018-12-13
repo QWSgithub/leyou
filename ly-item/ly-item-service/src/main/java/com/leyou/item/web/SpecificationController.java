@@ -28,15 +28,18 @@ public class SpecificationController {
     }
 
 
+
     /**
-     * 根据组id查询参数
+     *  查询参数集合
      * @param gid
      * @return
      */
     @GetMapping("params")
-    public ResponseEntity<List<SpecParam>> queryParamByGid(@RequestParam("gid") Long gid){
+    public ResponseEntity<List<SpecParam>> queryParamList(@RequestParam(value = "gid", required = false) Long gid,
+                                                          @RequestParam(value = "cid",required = false) Long cid,
+                                                          @RequestParam(value = "searching",required = false) Boolean searching){
 
-        return ResponseEntity.ok(specService.queryParamByGid(gid));
+        return ResponseEntity.ok(specService.queryParamList(gid,cid,searching));
     }
 }
 

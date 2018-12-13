@@ -22,6 +22,7 @@ public enum ExceptionEnum {
     SPEC_GROUP_NOT_FOND(400,"商品规格组不存在"),
     SPEC_PARAM_NOT_FOND(400,"商品参数不存在"),
     GOODS_NOT_FOND(400,"商品不存在"),
+    GOODS_SAVE_ERROR(500,"新增商品失败"),
 
 //    CATEGORY_BRAND_SAVE_ERROR(500,"新增品牌分类中间表失败"),
     ;
