@@ -17,7 +17,7 @@ public class SpecParam {
     private Long groupId;
     private String name;
 
-    @Column(name = "`numeric`")
+    @Column(name = "`numeric`")  // numeric 是sql语句的一个关键字 加上``可以转换成普通字符串
     private Boolean numeric;
     private String unit;
     private Boolean generic;

@@ -205,6 +205,9 @@
     <orderEntry type="library" name="Maven: tk.mybatis:mapper-core:1.0.5" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.3" level="project" />
+    <orderEntry type="module" module-name="ly-common" />
+    <orderEntry type="library" name="Maven: tk.mybatis:mapper-extra:1.0.5" level="project" />
+    <orderEntry type="library" name="Maven: tk.mybatis:mapper-base:1.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.22" level="project" />
   </component>

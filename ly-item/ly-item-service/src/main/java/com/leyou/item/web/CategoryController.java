@@ -35,6 +35,8 @@ public class CategoryController {
      */
     @GetMapping("list/ids")
     public ResponseEntity<List<Category>> queryCategoryByIds(@RequestParam("ids")List<Long> ids){
+
+        System.out.println("queryCategoryByIds");
         return ResponseEntity.ok(categoryService.queryByIds(ids));
     }
 
