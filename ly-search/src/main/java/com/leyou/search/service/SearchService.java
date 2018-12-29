@@ -215,7 +215,7 @@ public class SearchService {
 
     public PageResult<Goods> search(SearchRequest request) {
 
-        Integer page = request.getPage();
+        Integer page = request.getPage() - 1;
         Integer size = request.getSize();
         //创建查询构建器
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
